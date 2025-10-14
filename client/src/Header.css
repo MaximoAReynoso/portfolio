@@ -1,21 +1,70 @@
 @keyframes slideDownFade {
-  0% {
-    opacity: 0;
-    transform: translateY(-10vh);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    0% {
+        opacity: 0;
+        transform: translateY(-15vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-.titulo {
+.header {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
     background-color: gray;
 
     animation: slideDownFade 0.8s ease-out 0.5s forwards;
     opacity: 0;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 10vh;
+
+    text-align: left;
+    margin-left: 5vh;
+}
+
+.text:hover {cursor: default;}
+
+.options {
+    background-color: rgb(65, 65, 65);
+    font-size: 5vh;
+    display: flex;
+    justify-content: right;
+    height: 8vh;
+    
+    animation: slideDownFade 0.8s ease-out 0.5s forwards;
+    opacity: 0;
+}
+
+.options > div {
+    margin-right: 10vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+a:hover::after {
+    width: 100%;
 }
