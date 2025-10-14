@@ -1,3 +1,21 @@
-h1 {
-    color: blue;
+@keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-10vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: gray;
+
+    animation: slideDownFade 0.8s ease-out 0.5s forwards;
+    opacity: 0;
 }

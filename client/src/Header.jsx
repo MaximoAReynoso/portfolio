@@ -4,7 +4,7 @@ import './Header.css'
 function Header(){
     return (
         <>
-            <h1>Hello World</h1>
+            <h1 className='titulo'>Hello World</h1>
         </>
     )
 }
