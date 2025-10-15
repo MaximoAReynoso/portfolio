@@ -1,0 +1,43 @@
+.title {
+    margin-left: 30vh;
+    margin-top: 15vh;
+
+    font-size: 8vh;
+    font-family: Sans-serif;
+    font-weight: bold;
+}
+
+div > p {
+    margin-left: 35vh;
+    margin-top: 5vh;
+
+    font-size: 4vh;
+    font-family: Sans-serif;
+    font-weight: bold;
+}
+
+div > p > a {
+    position: relative;
+    display: inline-block;
+    color: blue;
+
+    font-size: 4vh;
+    font-family: Sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div > p > a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    transition: width 0.3s ease;
+}
+
+div > p > a:hover::after {
+    width: 100%;
+}
