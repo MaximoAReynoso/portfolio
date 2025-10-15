@@ -1,0 +1,48 @@
+.educationLabel {
+    position: relative;
+    width: 60%;
+    height: 10vh;
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 1vh;
+
+    text-align: center;
+    align-content: center;
+    background-color: gray;
+    color: black;
+    font-size: 6vh;
+}
+
+.boxEducation {
+    position: relative;
+    width: 60%;
+    height: 25vh;
+    background-color: white;
+
+    margin-top: 1.5%;
+    margin-left: 20%;
+    margin-bottom: 1.5%;
+    border-radius: 1vh;
+}
+
+.educationName {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-size: 4vh;
+}
+
+.educationDate {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 70%;
+    font-size: 4vh;
+}
+
+.educationDescription {
+    position: absolute;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 3vh;
+}

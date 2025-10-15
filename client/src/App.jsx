@@ -3,6 +3,7 @@ import { AnimatePresence } from 'framer-motion';
 
 import {Header} from './pages/Header';
 import Home from './pages/Home';
+import Education from './pages/Education';
 import Project from './pages/Projects';
 import Contact from './pages/Contact';
 
@@ -15,6 +16,7 @@ function App() {
       <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
