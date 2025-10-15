@@ -28,6 +28,13 @@ function Education () {
                 <p className='educationDate'>MM/YYYY</p>
                 <p className='educationDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod augue in mi eleifend, sed maximus erat lobortis.</p>
             </div>
+
+            <p className='educationLabel'>Language Certifications</p>
+            <div className='boxEducation'>
+                <p className='educationName'>Certification #1</p>
+                <p className='educationDate'>MM/YYYY</p>
+                <p className='educationDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod augue in mi eleifend, sed maximus erat lobortis.</p>
+            </div>
         </motion.div>
         </>
     )

@@ -5,6 +5,7 @@ import {Header} from './pages/Header';
 import Home from './pages/Home';
 import Education from './pages/Education';
 import Project from './pages/Projects';
+import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Project />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </AnimatePresence>
