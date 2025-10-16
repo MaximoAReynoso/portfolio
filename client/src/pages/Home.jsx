@@ -7,7 +7,7 @@ function Home (){
         <motion.div initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -100, opacity: 0 }} transition={{ duration: 0.6, ease: 'easeOut' }}>
             <div className='imgHolder'></div>
             <p className='myName'>Máximo Andrés Reynoso <br/> Advanced Systems Engineering student</p>
-            <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod augue in mi eleifend, sed maximus erat lobortis. Vestibulum tempus nec purus et iaculis. Vivamus tincidunt molestie tempor. Pellentesque porttitor turpis eget congue consectetur. Mauris ante neque, iaculis ut diam id, blandit interdum quam. Maecenas euismod, orci nec imperdiet tristique, dolor orci sodales velit, ac placerat velit orci vel felis. In hendrerit dolor ut massa aliquam iaculis. Pellentesque laoreet venenatis dui quis accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec in lectus eu leo sollicitudin suscipit vel ut mi. </p>
+            <p className='description'>Advanced Systems Engineering student with over 70% subjects passed and a background in programming and data analysis (Python, SQL, NumPy, Pandas, Matplotlib). I complement my training with courses in Data Science and the Internet of Things. I volunteer for the REHTO Project, performing equipment diagnostics, repair, and refurbishment, as well as installing Linux and open source software. I'm looking for my first work experience in IT or data analysis to apply my technical knowledge and continue developing in professional environments.</p>
         </motion.div>
         </>
     )

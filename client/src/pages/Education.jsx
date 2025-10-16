@@ -7,14 +7,14 @@ function Education () {
         <motion.div initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -100, opacity: 0 }} transition={{ duration: 0.6, ease: 'easeOut' }}>
             <p className='educationLabel'>Educative Institutions</p>
             <div className='boxEducation'>
-                <p className='educationName'>University</p>
-                <p className='educationDate'>03/2022 - Now</p>
-                <p className='educationDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod augue in mi eleifend, sed maximus erat lobortis.</p>
+                <p className='educationName'>Systems Engineering</p>
+                <p className='educationDate'>03/2022 - Present</p>
+                <p className='educationDescription'>Universidad Nacional del Centro de la provincia de Buenos Aires. Tandil.<br />Currently in the fourth year. (+70% of subjects passed).</p>
             </div>
             <div className='boxEducation'>
-                <p className='educationName'>Secondary school</p>
+                <p className='educationName'>Secondary Education</p>
                 <p className='educationDate'>03/2016 - 12/2021</p>
-                <p className='educationDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod augue in mi eleifend, sed maximus erat lobortis.</p>
+                <p className='educationDescription'>Instituto Secundario Saint Exupery. Buenos Aires. Miramar.<br />Bachiller of Natural Sciences.</p>
             </div>
 
             <p className='educationLabel'>Certifications</p>

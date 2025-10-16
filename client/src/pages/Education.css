@@ -28,7 +28,7 @@
 .educationName {
     position: absolute;
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 15%;
     font-size: 4vh;
 }
 
@@ -41,8 +41,8 @@
 
 .educationDescription {
     position: absolute;
-    width: 70%;
+    width: 85%;
     margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 15%;
     font-size: 3vh;
 }
