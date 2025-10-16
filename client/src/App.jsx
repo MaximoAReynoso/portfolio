@@ -9,20 +9,20 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 
 function App() {
-  return (
+	return (
     <>
     <BrowserRouter>
-      <Header />
+		<Header />
 
-      <AnimatePresence mode="wait">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/projects" element={<Project />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </AnimatePresence>
+		<AnimatePresence mode="wait">
+			<Routes>
+        		<Route path="/" element={<Home />} />
+        		<Route path="/education" element={<Education />} />
+        		<Route path="/projects" element={<Project />} />
+        		<Route path="/skills" element={<Skills />} />
+        		<Route path="/contact" element={<Contact />} />
+        	</Routes>
+      	</AnimatePresence>
     </BrowserRouter>
     </>
   )
