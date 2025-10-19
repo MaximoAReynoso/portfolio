@@ -21,7 +21,7 @@ function Header(){
     return (
         <>
             <div className='header'>
-                <p className='text'>M. Reynoso</p>
+                <a href='https://www.linkedin.com/in/maximo-reynoso/'><p className='text'>M. Reynoso</p></a>
                 <Language />
             </div>
             <div className='options'>
